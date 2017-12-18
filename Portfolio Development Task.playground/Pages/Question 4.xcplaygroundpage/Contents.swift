@@ -22,6 +22,19 @@
  */
 // Answer question 4 below
 
+var moneyIHaveEarned : 0
+moneyIHaveEarned = moneyIHaveEarned += 12
+moneyIHaveEarned = moneyIHaveEarned -= 7
+moneyIHaveEarned = moneyIHaveEarned *= 3
+moneyIHaveEarned = moneyIHaveEarned -= 5.5
+
+
+
+
+
+
+
+
 /*:
  ## Now share your understanding
  
