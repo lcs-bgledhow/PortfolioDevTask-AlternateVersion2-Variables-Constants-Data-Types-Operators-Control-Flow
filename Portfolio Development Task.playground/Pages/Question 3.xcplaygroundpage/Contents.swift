@@ -22,6 +22,20 @@
  */
 // Answer question 3 below
 
+let hairDonationAmount = 55.75
+let runTrainingDonationAmount = 15.35
+var headShaveCount = 12
+var runTrainingCount = 73
+var totalDonationAmount = ((55.75 * 12) + (15.35 * 73))
+
+print("the constants will never change amounts and the variables will end up changing amounts")
+
+
+
+
+
+
+
 /*:
  ## Now share your understanding
  
