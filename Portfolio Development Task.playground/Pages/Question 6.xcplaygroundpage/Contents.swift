@@ -20,23 +20,26 @@
  */
 // Answer question 6 below
 
+let targetDistance : Double = 10
+var currentDistanceRun: Double = 9
+var percentRun : Double = currentDistanceRun/targetDistance
 
-/*:
- ## Now share your understanding
- 
- 1. Commit your response on this page (Option-Command-C).
- 2. [Add a link][al] to your Computer Science portfolio.
- 
- [al]:
- https://www.youtube.com/watch?v=Wa3Wl3T25jo&list=PLTGGOQnktyWs9TlNJ30pgYgypvIGrt3Lx&index=1
- 
- ### Learning Goals - Programming
- 
- * Goal 5
-    * *Knowledge*
-        * I can write concise statements using Boolean operators or pattern matching to check for multiple conditions.
- 
- * Goal 6
-    * *Knowledge*
-        * I can use comparison operators and arithmetic operators and understand operator precedence (order of operations).
- */
+if percentRun < 0.15 {
+    print("Great start, keep it up!")
+} else if percentRun > 0.45 && percentRun < 0.50 {
+    print("Bad start, do not keep up pace")
+} else if percentRun == 0.50 {
+    print("Halfway there!")
+} else if percentRun > 0.88 && percentRun < 1 {
+    print("Nearly done!")
+} else if percentRun >= 1 {
+    print("GREAT JOB! You're finished the run.")
+}
+
+
+
+
+
+
+
+
