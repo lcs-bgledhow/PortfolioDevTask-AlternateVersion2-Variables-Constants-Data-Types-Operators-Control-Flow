@@ -18,6 +18,19 @@
  */
 // Answer question 2 below
 
+let designName : String = "Punny Shirts"
+var priceOfShirt : Double = 45.50
+var shirtsSold = 30
+
+
+
+
+
+
+
+
+
+
 /*:
  ## Now share your understanding
  
